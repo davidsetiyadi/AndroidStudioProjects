@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <WebView
+        android:id="@+id/os_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        android:onClick="printPDF"
+        android:src="@drawable/print"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/checkbox_presentation1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/image_carousel"
+        android:textSize="30sp"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/checkbox_presentation2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/video_carousel"
+        android:textSize="30sp"
+        android:visibility="gone" />
+
+    <!--    <TextView-->
+<!--        android:id="@+id/ptextView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="lOCALSTORAGE TEST"-->
+<!--        android:visibility="gone"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />-->
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/camara"-->
+<!--        android:visibility="gone"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:text="打开摄像头"-->
+<!--        android:textSize="15sp"-->
+<!--        android:layout_marginTop="50dp" />-->
+
+     
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <SurfaceView
+            android:id="@+id/sfv_preview0"
+            android:layout_margin="15dp"
+            android:layout_below="@+id/tb_back"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <SurfaceView
+            android:id="@+id/sfv_preview1"
+            android:layout_margin="15dp"
+            android:layout_below="@+id/tb_back"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <SurfaceView
+            android:id="@+id/sfv_preview2"
+            android:layout_margin="15dp"
+            android:layout_below="@+id/tb_back"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/button0"
+            android:text="打开后置摄像头"
+            android:layout_height="40dp"
+                android:layout_width="100dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:text="打开前置摄像头1"
+            android:layout_marginLeft="20dp"
+            android:layout_height="40dp"
+            android:layout_width="100dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="打开前置摄像头2"
+            android:layout_marginLeft="20dp"
+            android:layout_height="40dp"
+            android:layout_width="100dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/tv_stop"
+            android:text="关闭"
+            android:layout_height="60dp"
+            android:layout_width="200dp" />
+
+        <Button
+            android:id="@+id/tv_ok"
+            android:layout_marginLeft="100dp"
+            android:text="打开系统摄像头"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
