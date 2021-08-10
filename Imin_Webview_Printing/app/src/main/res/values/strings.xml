@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">SIGMA_POS</string>
-    <string name="presentation_photo_text">Showing Webview on display #%1$d: %2$s.</string>
-    <string name="video_carousel">SGEEDE</string>
-    <string name="image_carousel">ODES</string>
-
-</resources>
