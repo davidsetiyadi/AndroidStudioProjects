@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity{
 
     /*-- CUSTOMIZE --*/
     /*-- you can customize these options for your convenience --*/
-    private static String webview_url   = "https://fimstest.trendtechconsultancy.com/";    // web address or local file location you want to open in webview
+    private static String webview_url   = "https://ydc.trendtechconsultancy.com/";    // web address or local file location you want to open in webview
     private static String file_type     = "*/*";    // file types to be allowed for upload
     private boolean multiple_files      = true;         // allowing multiple file upload
 
